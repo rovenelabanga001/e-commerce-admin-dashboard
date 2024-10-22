@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.heading-big,
+.heading-medium {
+  color: rgb(237, 2, 2);
+  font-weight: 800;
+}
+body {
+  background-color: rgb(3, 3, 45);
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+}
+p,
+input {
+  color: white;
+}
+.heading-big {
+  font-size: 30px;
+}
+.heading-medium {
+  font-size: 25px;
+}
+.btn {
+  background-color: rgb(237, 2, 2);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-icon {
+  background: none;
+  padding: 10px;
+  border: none;
+  color: rgb(237, 2, 2);
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.old-price {
+  color: red;
+  text-decoration: line-through;
+}
+#page-header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background: rgba(3, 3, 45);
+  border: 2px solid transparent;
+}
+#page-header header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+#page-header header h2 {
+  margin: auto;
+}
+#page-header header button {
+  /* justify-self: flex-end; */
+}
+main {
+  margin-top: 120px;
+  padding: 30px;
+}
+#product-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+}
+#product-section .search-for-product form#search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: white;
+}
+#product-section .search-for-product form#search-form input,
+#product-section .search-for-product form#search-form button {
+  height: 35px;
+  padding: 8px;
+}
+#product-section .search-for-product form#search-form input {
+  width: 40vw;
+  padding: 0 10px;
+  outline: none;
+  border: 2px solid white;
+  background: rgba(227, 227, 246, 0);
+  transition: 0.3s ease;
+}
+#product-section .search-for-product form#search-form input::placeholder {
+  color: white;
+  font-weight: 400s;
+}
+#product-section .search-for-product form#search-form input:focus {
+  border: 2px solid rgb(237, 2, 2);
+}
+.all-products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.all-products-container .product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 30%;
+  gap: 10px;
+  padding: 20px 0 20px 0;
+  cursor: pointer;
+  /* border: 1px solid rgb(237, 2, 2); */
+}
+.all-products-container .product-container img {
+  width: 100%;
+  height: 70%;
+  margin-top: 0;
+  object-fit: contain;
+}
+.all-products-container .product-container .product-details {
+  display: block;
+  text-align: center;
+  gap: 10px;
+}
+.all-products-container .product-container .product-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10 20px;
+  width: 100%;
+}
+.product-form-container {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(31, 4, 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product-form-container button.btn-icon {
+  position: relative;
+  right: -500px;
+  top: -50px;
+  font-size: 30px;
+}
+.product-form-container .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 60%;
+  text-align: center;
+}
+.product-form-container .form-container form.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+.product-form-container .form-container form.forms input {
+  width: 100%;
+  background-color: rgb(31, 4, 4);
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  border: 1px solid white;
+  outline: none;
+  padding: 0 10px;
+  transition: 0.5s step-start;
+}
+.product-form-container .form-container form.forms input::placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+.product-form-container .form-container form.forms input:focus {
+  border: none;
+  border-bottom: 2px solid rgb(237, 2, 2);
+}
+.hidden {
+  display: none;
+}

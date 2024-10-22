@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section id="page-header">
+      <header>
+        <button class="btn-icon"><i class="fa-solid fa-plus"></i></button>
+        <h2 class="heading-big">Admin Username</h2>
+        <button class="btn">Log Out</button>
+      </header>
+    </section>
+    <main class="#">
+      <section id="product-section">
+        <div class="search-for-product">
+          <form action="" id="search-form">
+            <input
+              type="text"
+              placeholder="search for a product"
+              id="search-input"
+            />
+            <button type="submit" class="btn">Search</button>
+          </form>
+        </div>
+        <div class="header-text">
+          <h5 class="heading-medium">All products</h5>
+        </div>
+        <div class="all-products-container">
+          <div class="product-container">
+            <img src="./images/New Balance 9060.jpeg" alt="" />
+            <div class="product-details">
+              <p>Name</p>
+              <p>Was <span class="old-price"> Oldprice</span></p>
+              <p>NewPrice</p>
+              <p>Category</p>
+            </div>
+            <div class="product-buttons">
+              <button class="btn-icon">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+              <button class="btn-icon">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-container">
+            <img src="./images/New Balance 9060.jpeg" alt="" />
+            <div class="product-details">
+              <p>Name</p>
+              <p>Was <span class="old-price"> Oldprice</span></p>
+              <p>NewPrice</p>
+              <p>Category</p>
+            </div>
+            <div class="product-buttons">
+              <button class="btn-icon">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+              <button class="btn-icon">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-container">
+            <img src="./images/New Balance 9060.jpeg" alt="" />
+            <div class="product-details">
+              <p>Name</p>
+              <p>Was <span class="old-price"> Oldprice</span></p>
+              <p>NewPrice</p>
+              <p>Category</p>
+            </div>
+            <div class="product-buttons">
+              <button class="btn-icon">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+              <button class="btn-icon">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-container">
+            <img src="./images/New Balance 9060.jpeg" alt="" />
+            <div class="product-details">
+              <p>Name</p>
+              <p>Was <span class="old-price"> Oldprice</span></p>
+              <p>NewPrice</p>
+              <p>Category</p>
+            </div>
+            <div class="product-buttons">
+              <button class="btn-icon">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+              <button class="btn-icon">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-container">
+            <img src="./images/New Balance W1064.jpeg" alt="" />
+            <div class="product-details">
+              <p>Name</p>
+              <p>Was <span class="old-price"> Oldprice</span></p>
+              <p>NewPrice</p>
+              <p>Category</p>
+            </div>
+            <div class="product-buttons">
+              <button class="btn-icon">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+              <button class="btn-icon">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-container">
+            <img src="./images/New Balance 9060.jpeg" alt="" />
+            <div class="product-details">
+              <p>Name</p>
+              <p>Was <span class="old-price"> Oldprice</span></p>
+              <p>NewPrice</p>
+              <p>Category</p>
+            </div>
+            <div class="product-buttons">
+              <button class="btn-icon">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+              <button class="btn-icon">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="product-form-container hidden">
+      <button class="btn-icon"><i class="fa-solid fa-xmark"></i></button>
+      <div class="form-container">
+        <form action="" class="forms" id="add-product-form">
+          <h3 class="heading-medium">Add product</h3>
+          <input type="text" placeholder="Product name" />
+          <input type="url" placeholder="Image URL">
+          <input type="number" placeholder="New price" />
+          <input type="text" placeholder="Category" />
+          <button type="submit" class="btn">Add Product</button>
+        </form>
+      </div>
+    </section>
+    <section class="product-form-container">
+      <button class="btn-icon"><i class="fa-solid fa-xmark"></i></button>
+      <div class="form-container">
+        <form action="" class="forms" id="edit-product-form">
+          <input type="text" placeholder="New name" />
+          <input type="number" placeholder="New old price" />
+          <input type="number" placeholder="New price" />
+          <input type="text" placeholder="New category" />
+          <button type="submit" class="btn">Edit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Graphic T-Shirt",
+        "imageURL": "https://example.com/images/graphic-tshirt.jpg",
+        "newPrice": 19.99,
+        "oldPrice": 29.99,
+        "category": "shirts"
+      },
+      {
+        "id": 2,
+        "name": "Pullover Hoodie",
+        "imageURL": "https://example.com/images/pullover-hoodie.jpg",
+        "newPrice": 39.99,
+        "oldPrice": 49.99,
+        "category": "hoodies"
+      },
+      {
+        "id": 3,
+        "name": "Crewneck Sweatshirt",
+        "imageURL": "https://example.com/images/crewneck-sweatshirt.jpg",
+        "newPrice": 34.99,
+        "oldPrice": 44.99,
+        "category": "sweatshirt"
+      },
+      {
+        "id": 4,
+        "name": "Fleece Sweatpants",
+        "imageURL": "https://example.com/images/fleece-sweatpants.jpg",
+        "newPrice": 29.99,
+        "oldPrice": 39.99,
+        "category": "sweatpants"
+      },
+      {
+        "id": 5,
+        "name": "Snapback Hat",
+        "imageURL": "https://example.com/images/snapback-hat.jpg",
+        "newPrice": 14.99,
+        "oldPrice": 24.99,
+        "category": "hats"
+      },
+      {
+        "id": 6,
+        "name": "Long Sleeve T-Shirt",
+        "imageURL": "https://example.com/images/long-sleeve-tshirt.jpg",
+        "newPrice": 24.99,
+        "oldPrice": 34.99,
+        "category": "shirts"
+      },
+      {
+        "id": 7,
+        "name": "Zip-Up Hoodie",
+        "imageURL": "https://example.com/images/zip-up-hoodie.jpg",
+        "newPrice": 44.99,
+        "oldPrice": 54.99,
+        "category": "hoodies"
+      },
+      {
+        "id": 8,
+        "name": "Baseball Cap",
+        "imageURL": "https://example.com/images/baseball-cap.jpg",
+        "newPrice": 12.99,
+        "oldPrice": 19.99,
+        "category": "hats"
+      }
+    ]
+  }
+  
