@@ -45,6 +45,14 @@ input {
   color: red;
   text-decoration: line-through;
 }
+.small {
+  font-size: 12px;
+  color: gray;
+}
+span {
+  color: white;
+  font-size: 15px;
+}
 #page-header {
   width: 100%;
   height: 100px;
@@ -152,12 +160,14 @@ main {
 }
 .product-form-container button.btn-icon {
   position: relative;
-  right: -500px;
-  top: -50px;
+  right: -45vw;
+  top: -5px;
   font-size: 30px;
 }
 .product-form-container .form-container {
   display: flex;
+  flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   padding: 50px;
@@ -190,6 +200,32 @@ main {
 .product-form-container .form-container form.forms input:focus {
   border: none;
   border-bottom: 2px solid rgb(237, 2, 2);
+}
+.product-form-container .form-container form#add-product-form label {
+  width: 100%;
+  background-color: rgb(31, 4, 4);
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  border: 1px solid white;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  transition: 0.5s step-start;
+}
+.product-form-container .form-container form#add-product-form label:hover,
+.product-form-container .form-container form#add-product-form label:focus {
+  border: none;
+  border-bottom: 2px solid rgb(237, 2, 2);
+}
+.product-form-container .form-container img#prod-image {
+  width: 20%;
+  height: 20%;
+  object-fit: contain;
+  margin-bottom: 50px;
 }
 .hidden {
   display: none;
